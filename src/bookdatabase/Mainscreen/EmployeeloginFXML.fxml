@@ -1,0 +1,35 @@
+<!-- 
+    Created on : 28-Jul-2019, 9:40:44 PM
+    Author     : Vinayak
+    Modifiers  : Pramod, Kiran
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import java.net.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bookdatabase.EmployeeLogin.EmployeeLoginFXMLController">
+        <stylesheets>
+        <URL value="@style.css"/>
+    </stylesheets>  
+    <children>
+       <Button fx:id="btnEmployeeLoginExit" layoutX="566.0" layoutY="14.0" mnemonicParsing="false" text="X" />
+      <TextField fx:id="txtEmpID" layoutX="46.0" layoutY="145.0" />
+      <Label layoutX="148.0" layoutY="25.0" text="Employee Login">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="128.0" text="Employee ID" />
+      <Label layoutX="46.0" layoutY="192.0" text="Password" />
+      <Button fx:id="btnEmployeeLogin" layoutX="81.0" layoutY="252.0" mnemonicParsing="false" text="Login" />
+      <PasswordField fx:id="txtEmpPass" layoutX="46.0" layoutY="209.0" />
+      <ImageView fx:id="imgBack" fitHeight="46.0" fitWidth="46.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#clickBack" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

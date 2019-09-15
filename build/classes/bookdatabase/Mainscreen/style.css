@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-Jul-2019, 9:40:44 PM
+    Author     : Kiran
+*/
+
+.root {
+    -fx-padding: 5px;
+    
+}
+.label {
+    -fx-text-fill: burlywood;
+    -fx-font-family: sans-serif;
+}
+.button {
+    -fx-cursor: hand;
+    -fx-background-color: lightgoldenrodyellow;
+    -fx-font-family: sans-serif;
+       
+}
+.button:hover {
+    -fx-background-color: burlywood;
+    -fx-fill: black;
+    -fx-font-weight: bold;
+ 
+}
+.textField {
+    -fx-padding: 7px;
+}
+
+#cancel:hover {
+    -fx-background-color: red;
+    -fx-font-weight: bold;
+}
+
+#reg:hover {
+   -fx-background-color: lightgreen;
+    -fx-font-weight: bold;
+}
+
+/*css for employee page and studenpage search buttons css*/
+#other {
+    -fx-background-color: lightblue;
+}
+#other:hover {
+    -fx-font-weight: bold;
+}

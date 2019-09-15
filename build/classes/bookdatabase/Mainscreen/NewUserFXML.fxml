@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import java.net.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="538.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bookdatabase.Mainscreen.NewUserFXMLController">
+    <stylesheets>
+        <URL value="@style.css"/>
+    </stylesheets>  
+    <children>
+        <Button fx:id="btnNewUserExit" layoutX="566.0" layoutY="14.0" mnemonicParsing="false" text="X" />
+      <Label layoutX="171.0" layoutY="20.0" prefHeight="39.0" prefWidth="258.0" text="Register to Continue">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <TextField layoutX="119.0" layoutY="92.0" />
+      <TextField layoutX="288.0" layoutY="92.0" />
+      <TextField layoutX="119.0" layoutY="148.0" />
+      <TextField layoutX="119.0" layoutY="200.0" />
+      <Label layoutX="119.0" layoutY="69.0" text="First Name" />
+      <Label layoutX="289.0" layoutY="69.0" text="Last Name" />
+      <Label layoutX="119.0" layoutY="124.0" text="Email" />
+      <Label layoutX="291.0" layoutY="232.0" text="Province" />
+      <Label layoutX="119.0" layoutY="180.0" text="Phone" />
+      <ComboBox layoutX="289.0" layoutY="251.0" prefHeight="25.0" prefWidth="56.0" />
+      <TextField layoutX="119.0" layoutY="251.0" promptText="Supporting only Canada" />
+      <TextField layoutX="119.0" layoutY="329.0" />
+      <TextField layoutX="119.0" layoutY="390.0" />
+      <Label layoutX="121.0" layoutY="310.0" text="Choose Password" />
+      <Label layoutX="120.0" layoutY="373.0" prefHeight="17.0" prefWidth="102.0" text="Confirm Password" />
+      <Button fx:id="btnRegister" layoutX="254.0" layoutY="452.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="126.0" text="Register" textFill="#9a1e88" />
+      <ImageView fx:id="imgBack" fitHeight="39.0" fitWidth="46.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#clickBack" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

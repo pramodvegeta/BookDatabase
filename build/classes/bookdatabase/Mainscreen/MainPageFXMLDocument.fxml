@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import java.net.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="285.0" prefWidth="546.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bookdatabase.Mainscreen.MainPageFXMLDocumentController">
+    <stylesheets>
+        <URL value="@style.css"/>
+    </stylesheets>  
+    <children>
+      <ImageView fx:id="imgMainscreen" fitHeight="285.0" fitWidth="604.0" pickOnBounds="true" />
+      <Button fx:id="btnMainExit" layoutX="566.0" layoutY="14.0" mnemonicParsing="false" text="X" />
+      <Button fx:id="btnStudent" layoutX="61.0" layoutY="138.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="143.0" text="Student" />
+      <Button fx:id="btnEmployee" layoutX="376.0" layoutY="138.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="136.0" text="Employee" />
+      <Button fx:id="btnRegister" blendMode="GREEN" layoutX="258.0" layoutY="246.0" mnemonicParsing="false" text="Register Here" />
+   </children>
+</AnchorPane>
